@@ -2,10 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(/img/softwaree.jpg);
 }
 
 header {
-    background-color: #333;
+    background-color: #7B7C81;
     color: #fff;
     padding: 20px;
 }
@@ -30,13 +31,13 @@ main {
 }
 
 section {
-    border: 1px solid #ccc;
+    border: 1px solid white;
     padding: 20px;
     margin-bottom: 20px;
 }
 
 footer {
-    background-color: #333;
+    background-color: #7B7C81;
     color: #fff;
     text-align: center;
     padding: 10px;
