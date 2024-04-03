@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     margin: 0;
     padding: 0;
-    background-image: url(/img/softwaree.jpg);
+    background-image: url(img/softwaree.jpg);
 }
 
 header {
     background-color: #7B7C81;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    padding-left: 38px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
 
 nav ul {
@@ -31,16 +39,21 @@ main {
 }
 
 section {
-    border: 1px solid white;
+    border: 10px solid #BACBDB;
+    border-radius: 15px;
     padding: 20px;
     margin-bottom: 20px;
+    color: #5e5c59;
+
 }
 
 footer {
     background-color: #7B7C81;
-    color: #fff;
+    color: white;
     text-align: center;
     padding: 10px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 @media screen and (min-width: 768px) {
