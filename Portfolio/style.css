@@ -83,3 +83,20 @@ footer {
 body::-webkit-scrollbar {
     display: none;
 }
+
+/*Loopbaan pagina..*/
+.foto_loopbaan section {
+    position: relative;
+    border: 10px solid #BACBDB;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #5e5c59; 
+}
+
+.foto_loopbaan img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 15px;
+}
